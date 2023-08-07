@@ -49,7 +49,7 @@ class _HomePageState extends ConsumerState<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const AppText("Challenge Chat", color: Colors.white, size: 22, weight: FontWeight.w700,), centerTitle: true,),
+      appBar: AppBar(title: const AppText("ChallengeChat", color: Colors.white, size: 22, weight: FontWeight.w700,), centerTitle: true,),
       backgroundColor: Colors.white,
       body: RefreshIndicator( onRefresh: () {
         return webViewController!.reload();
