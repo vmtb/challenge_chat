@@ -32,7 +32,7 @@ class _HomePageState extends ConsumerState<HomePage> {
         useShouldOverrideUrlLoading: false,
         mediaPlaybackRequiresUserGesture: false,
         javaScriptCanOpenWindowsAutomatically: true,
-        applicationNameForUserAgent: 'Jesus24TV',
+        applicationNameForUserAgent: 'Challenge Chat',
         userAgent:
         'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.105 Mobile Safari/537.36',
         // enable iOS service worker feature limited to defined App Bound Domains
